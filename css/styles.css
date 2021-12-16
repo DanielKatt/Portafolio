@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 .hero{
@@ -61,7 +62,7 @@ h1{
 
 .side-bar{
     width: 70px;
-    height: 150vh;
+    height: 100vh;
     background: linear-gradient(#131313, #1a1919);
     position: absolute;
     right: 0;
@@ -86,7 +87,7 @@ h1{
     width: 50px;
     text-align: center;
     position: absolute;
-    top: 30%;
+    top: 50%;
     transform: translateY(-50%);
 }
 
@@ -100,7 +101,7 @@ h1{
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
 }
 
 @keyframes erizos{
@@ -120,6 +121,7 @@ h1{
         transform: translateY(-80vh);
         opacity: 1;
     }
+    
 }
 
 .erizos img:nth-child(1){
@@ -166,4 +168,30 @@ h1{
 }
 .erizos img:nth-child(15){
     animation-delay: 5s;
+}
+
+section{
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0  40px;
+    align-items: center;
+    background: black;
+}
+
+section h2{
+    font-size: 50px;
+    font-weight: 500px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+section p{
+    font-weight: 300px;
+    margin-bottom: 15px;
+}
+
+section img{
+    height: 60%;
+
 }
