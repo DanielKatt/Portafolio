@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/body.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <title>Portafolio</title>
 </head>
 <body>
     <header>
         <div class="hero">
+            <div class="header" id="header">
+                <img src="../imagenes/bx-menu-alt-right.svg" class="hamburguer">
+                <nav class="menu-navegacion">
+                    <a href="#">Inicio</a>
+                    <a href="#">Sobre Mi</a>
+                    <a href="#">Fotos</a>
+                    <a href="#">Redes sociales</a>
+                    <a href="#">Contacto</a>
+                </nav>
+
+            </div>
             </div>
             <div class="content">
                 <small>PORTAFOLIO</small>
@@ -41,28 +54,72 @@
             </div>
         </div>
     </header>
-
-<div class="cuerpo">
-    <section id="sect1">
-        <div class="contenedor-texto">
-            <h2>Section1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iusto nostrum corporis natus eveniet voluptate animi necessitatibus id ducimus doloribus explicabo exercitationem labore, illum assumenda reprehenderit quia a eaque odio distinctio itaque delectus sit perspiciatis amet. Blanditiis possimus quo eius? Dicta ab, quia distinctio minus nisi facilis omnis voluptate error?</p>
-            <a href="#">Siguiente:</a>
+<main>
+    <section class="services contenedor" id="servicio">
+        <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <div class="service">
+                    <h3 class="n-sevice"><span class="number">1</span>Diseñoweb</h3> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor possimus commodi ducimus eveniet libero voluptatem animi aut debitis modi officia asperiores at dolores aperiam eaque pariatur, vel blanditiis ipsa assumenda. Eos atque adipisci assumenda odio alias distinctio qui officia repudiandae!</p>
+                </div>
+                <div class="service">
+                    <h3 class="n-sevice"><span class="number">2</span>Diseñoweb</h3> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor possimus commodi ducimus eveniet libero voluptatem animi aut debitis modi officia asperiores at dolores aperiam eaque pariatur, vel blanditiis ipsa assumenda. Eos atque adipisci assumenda odio alias distinctio qui officia repudiandae!</p>
+                </div>
+                <div class="service">
+                    <h3 class="n-sevice"><span class="number">3</span>Diseñoweb</h3> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor possimus commodi ducimus eveniet libero voluptatem animi aut debitis modi officia asperiores at dolores aperiam eaque pariatur, vel blanditiis ipsa assumenda. Eos atque adipisci assumenda odio alias distinctio qui officia repudiandae!</p>
+                </div>
+            </div>
+    </section>  
+    <section class="galery" id="portafolio">
+        <div class="contenedor">
+            <h2 class="subtitulo"> Galeria</h2>
+            <div class="contenedor-galeria">
+                <img src="../imagenes/gato con suelo pero normal.jpg" alt="" class="img-galeria">
+                <img src="../imagenes/gato con sueño pero elegante.png" alt="" class="img-galeria">
+            </div>
         </div>
-        <img src="../imagenes/gato con suelo pero normal.jpg" alt="gato sueñito">
     </section>
-    <section id="sect2">
-        <div class="contenedor-texto">
-            <h2>Section2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iusto nostrum corporis natus eveniet voluptate animi necessitatibus id ducimus doloribus explicabo exercitationem labore, illum assumenda reprehenderit quia a eaque odio distinctio itaque delectus sit perspiciatis amet. Blanditiis possimus quo eius? Dicta ab, quia distinctio minus nisi facilis omnis voluptate error?</p>
-            <a href="#">Siguiente:</a>
+    <section class="contenedor" id="expertos">
+        <h2 class="subtitulo">Expertos en:</h2>
+        <section class="experts">
+            <div class="cont-expert">
+                <img src="../imagenes/gato con suelo pero normal.jpg" alt="">
+                <h3 class="n-expert">Analitycs</h3>
+            </div>
+            <div class="cont-expert">
+                <img src="../imagenes/gato con suelo pero normal.jpg" alt="">
+                <h3 class="n-expert">Seo</h3>
+            </div>
+            <div class="cont-expert">
+                <img src="../imagenes/gato con suelo pero normal.jpg" alt="">
+                <h3 class="n-expert">Security</h3>
+            </div>
+        </section>
+    </section>
+</main>
+<footer id="contacto">
+    <div class="contenedor footer-content">
+        <div class="contact-us">
+            <h2 class="brand"> Daniel Pinzón</h2>
+            <p>Desarrollador Full Stack</p>
         </div>
-        <img src="../imagenes/gato con sueño pero elegante.png" alt="gato sueñito elegante">
+        <div class="social-media">
+            <a href="./" class="social-media-icon">
+                <i class="bx bxl-gitHub"></i>
+            </a>
+            <a href="./" class="social-media-icon">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </div>
+    </div>
+</footer>
 
-    </section>
-    <section id="sect3">    
+<script src="../Javascript/menu.js"></script>
+<script src="../Javascript/lightbox.js"></script>
 
-    </section>
-</div>
+
+
 </body>
 </html>
