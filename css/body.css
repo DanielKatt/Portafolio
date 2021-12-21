@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: black;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.hamburguer{
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    background: #FA70EF;
+    z-index: 4;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 17px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+.menu-navegacion{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35vh;
+    height: 100%;
+    background-image: linear-gradient(135deg, #3b022a 0%, #5c1e57 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+    transition: transform .3s ease-in-out;
+    transform: translate(110);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+.spread{
+    transform: translate(0);
+}
+
+.menu-navegacion a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Aqui trabajaremos el body como tal*/
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img{
+    width: 40%;
+}
+
+.checklist-servicio{
+    width: 50%;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.n-sevice{
+    margin-bottom: 7px;
+    color: #FA70EF;
+}
+p{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+.number{
+    display: inline-block;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    width: 30px;
+    height: 30px;
+    color: black;
+    border-radius: 80%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+@media screen and (maxñ-width:800px) {
+    .menu-navegacion{
+        width: 50vw;
+    }
+}
